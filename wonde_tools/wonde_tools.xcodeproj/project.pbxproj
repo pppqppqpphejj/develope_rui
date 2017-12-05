@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1127ECF1F4FF6120079866A /* Macro_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1127ECE1F4FF6120079866A /* Macro_Tool.m */; };
+		C1127ED91F50018D0079866A /* NIKeyChain.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1CFB90E1F441B6200884D8D /* NIKeyChain.h */; };
+		C1127EDA1F50018D0079866A /* Drvice_tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1CFB90B1F441AFC00884D8D /* Drvice_tool.h */; };
+		C1127EDB1F50018D0079866A /* Date_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1CFB9081F44188600884D8D /* Date_Tool.h */; };
+		C1127EDC1F50018D0079866A /* NSDate+Common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1CFB9021F44186500884D8D /* NSDate+Common.h */; };
+		C1127EDD1F50018D0079866A /* NSDictionary+MutableDeepCopy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1CFB9041F44186500884D8D /* NSDictionary+MutableDeepCopy.h */; };
+		C1127EDE1F50018D0079866A /* Image_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDBE1F3C56F9004EACA5 /* Image_Tool.h */; };
+		C1127EDF1F50018D0079866A /* String_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDC11F3C5715004EACA5 /* String_Tool.h */; };
+		C1127EE01F50018D0079866A /* Array_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDC41F3C5799004EACA5 /* Array_Tool.h */; };
+		C1127EE11F50018D0079866A /* Dictionary_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDC71F3C57B6004EACA5 /* Dictionary_Tool.h */; };
+		C1127EE21F50018D0079866A /* CGSize_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDCA1F3C59D6004EACA5 /* CGSize_Tool.h */; };
+		C1127EE31F50018D0079866A /* ShapeLayer_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8FDCD1F3C5B26004EACA5 /* ShapeLayer_Tool.h */; };
+		C1127EE41F50018D0079866A /* UIColor+UIColor_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1A8B08E1F3D8432001067B7 /* UIColor+UIColor_Tool.h */; };
+		C1127EE51F50018D0079866A /* Macro_Tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1127ECD1F4FF6120079866A /* Macro_Tool.h */; };
+		C1127EE71F5001D00079866A /* wonder_LibraryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1127ED51F5001210079866A /* wonder_LibraryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1127F211F5014FB0079866A /* PopView.h in Headers */ = {isa = PBXBuildFile; fileRef = C1127F1E1F5014FB0079866A /* PopView.h */; };
+		C1127F221F5014FB0079866A /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1127F1F1F5014FB0079866A /* PopView.m */; };
+		C1127F231F5014FB0079866A /* PopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1127F201F5014FB0079866A /* PopView.xib */; };
+		C1A8B0901F3D8432001067B7 /* UIColor+UIColor_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8B08F1F3D8432001067B7 /* UIColor+UIColor_Tool.m */; };
+		C1A8FD8A1F3C56D1004EACA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FD891F3C56D1004EACA5 /* main.m */; };
+		C1A8FD8D1F3C56D1004EACA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FD8C1F3C56D1004EACA5 /* AppDelegate.m */; };
+		C1A8FD901F3C56D1004EACA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FD8F1F3C56D1004EACA5 /* ViewController.m */; };
+		C1A8FD931F3C56D1004EACA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A8FD911F3C56D1004EACA5 /* Main.storyboard */; };
+		C1A8FD961F3C56D1004EACA5 /* wonde_tools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FD941F3C56D1004EACA5 /* wonde_tools.xcdatamodeld */; };
+		C1A8FD981F3C56D1004EACA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A8FD971F3C56D1004EACA5 /* Assets.xcassets */; };
+		C1A8FD9B1F3C56D1004EACA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A8FD991F3C56D1004EACA5 /* LaunchScreen.storyboard */; };
+		C1A8FDA61F3C56D1004EACA5 /* wonde_toolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDA51F3C56D1004EACA5 /* wonde_toolsTests.m */; };
+		C1A8FDB11F3C56D1004EACA5 /* wonde_toolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDB01F3C56D1004EACA5 /* wonde_toolsUITests.m */; };
+		C1A8FDC01F3C56F9004EACA5 /* Image_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDBF1F3C56F9004EACA5 /* Image_Tool.m */; };
+		C1A8FDC31F3C5715004EACA5 /* String_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDC21F3C5715004EACA5 /* String_Tool.m */; };
+		C1A8FDC61F3C5799004EACA5 /* Array_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDC51F3C5799004EACA5 /* Array_Tool.m */; };
+		C1A8FDC91F3C57B6004EACA5 /* Dictionary_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDC81F3C57B6004EACA5 /* Dictionary_Tool.m */; };
+		C1A8FDCC1F3C59D6004EACA5 /* CGSize_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDCB1F3C59D6004EACA5 /* CGSize_Tool.m */; };
+		C1A8FDCF1F3C5B26004EACA5 /* ShapeLayer_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8FDCE1F3C5B26004EACA5 /* ShapeLayer_Tool.m */; };
+		C1CFB9061F44186500884D8D /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB9031F44186500884D8D /* NSDate+Common.m */; };
+		C1CFB9071F44186500884D8D /* NSDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB9051F44186500884D8D /* NSDictionary+MutableDeepCopy.m */; };
+		C1CFB90A1F44188600884D8D /* Date_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB9091F44188600884D8D /* Date_Tool.m */; };
+		C1CFB90D1F441AFC00884D8D /* Drvice_tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB90C1F441AFC00884D8D /* Drvice_tool.m */; };
+		C1CFB9101F441B6200884D8D /* NIKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CFB90F1F441B6200884D8D /* NIKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1A8FDA21F3C56D1004EACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A8FD7D1F3C56D1004EACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A8FD841F3C56D1004EACA5;
+			remoteInfo = wonde_tools;
+		};
+		C1A8FDAD1F3C56D1004EACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A8FD7D1F3C56D1004EACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A8FD841F3C56D1004EACA5;
+			remoteInfo = wonde_tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1127ED81F5001610079866A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C1127ED91F50018D0079866A /* NIKeyChain.h in CopyFiles */,
+				C1127EDA1F50018D0079866A /* Drvice_tool.h in CopyFiles */,
+				C1127EDB1F50018D0079866A /* Date_Tool.h in CopyFiles */,
+				C1127EDC1F50018D0079866A /* NSDate+Common.h in CopyFiles */,
+				C1127EDD1F50018D0079866A /* NSDictionary+MutableDeepCopy.h in CopyFiles */,
+				C1127EDE1F50018D0079866A /* Image_Tool.h in CopyFiles */,
+				C1127EDF1F50018D0079866A /* String_Tool.h in CopyFiles */,
+				C1127EE01F50018D0079866A /* Array_Tool.h in CopyFiles */,
+				C1127EE11F50018D0079866A /* Dictionary_Tool.h in CopyFiles */,
+				C1127EE21F50018D0079866A /* CGSize_Tool.h in CopyFiles */,
+				C1127EE31F50018D0079866A /* ShapeLayer_Tool.h in CopyFiles */,
+				C1127EE41F50018D0079866A /* UIColor+UIColor_Tool.h in CopyFiles */,
+				C1127EE51F50018D0079866A /* Macro_Tool.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1127ECD1F4FF6120079866A /* Macro_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro_Tool.h; sourceTree = "<group>"; };
+		C1127ECE1F4FF6120079866A /* Macro_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macro_Tool.m; sourceTree = "<group>"; };
+		C1127ED51F5001210079866A /* wonder_LibraryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wonder_LibraryHeader.h; sourceTree = "<group>"; };
+		C1127F1E1F5014FB0079866A /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		C1127F1F1F5014FB0079866A /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		C1127F201F5014FB0079866A /* PopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopView.xib; sourceTree = "<group>"; };
+		C1A8B08E1F3D8432001067B7 /* UIColor+UIColor_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIColor_Tool.h"; sourceTree = "<group>"; };
+		C1A8B08F1F3D8432001067B7 /* UIColor+UIColor_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIColor_Tool.m"; sourceTree = "<group>"; };
+		C1A8FD851F3C56D1004EACA5 /* wonde_tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wonde_tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A8FD891F3C56D1004EACA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1A8FD8B1F3C56D1004EACA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1A8FD8C1F3C56D1004EACA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1A8FD8E1F3C56D1004EACA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1A8FD8F1F3C56D1004EACA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1A8FD921F3C56D1004EACA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1A8FD951F3C56D1004EACA5 /* wonde_tools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wonde_tools.xcdatamodel; sourceTree = "<group>"; };
+		C1A8FD971F3C56D1004EACA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A8FD9A1F3C56D1004EACA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1A8FD9C1F3C56D1004EACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A8FDA11F3C56D1004EACA5 /* wonde_toolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wonde_toolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A8FDA51F3C56D1004EACA5 /* wonde_toolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wonde_toolsTests.m; sourceTree = "<group>"; };
+		C1A8FDA71F3C56D1004EACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A8FDAC1F3C56D1004EACA5 /* wonde_toolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wonde_toolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A8FDB01F3C56D1004EACA5 /* wonde_toolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wonde_toolsUITests.m; sourceTree = "<group>"; };
+		C1A8FDB21F3C56D1004EACA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A8FDBE1F3C56F9004EACA5 /* Image_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image_Tool.h; sourceTree = "<group>"; };
+		C1A8FDBF1F3C56F9004EACA5 /* Image_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image_Tool.m; sourceTree = "<group>"; };
+		C1A8FDC11F3C5715004EACA5 /* String_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String_Tool.h; sourceTree = "<group>"; };
+		C1A8FDC21F3C5715004EACA5 /* String_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String_Tool.m; sourceTree = "<group>"; };
+		C1A8FDC41F3C5799004EACA5 /* Array_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array_Tool.h; sourceTree = "<group>"; };
+		C1A8FDC51F3C5799004EACA5 /* Array_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array_Tool.m; sourceTree = "<group>"; };
+		C1A8FDC71F3C57B6004EACA5 /* Dictionary_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary_Tool.h; sourceTree = "<group>"; };
+		C1A8FDC81F3C57B6004EACA5 /* Dictionary_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dictionary_Tool.m; sourceTree = "<group>"; };
+		C1A8FDCA1F3C59D6004EACA5 /* CGSize_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSize_Tool.h; sourceTree = "<group>"; };
+		C1A8FDCB1F3C59D6004EACA5 /* CGSize_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGSize_Tool.m; sourceTree = "<group>"; };
+		C1A8FDCD1F3C5B26004EACA5 /* ShapeLayer_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayer_Tool.h; sourceTree = "<group>"; };
+		C1A8FDCE1F3C5B26004EACA5 /* ShapeLayer_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayer_Tool.m; sourceTree = "<group>"; };
+		C1CFB9021F44186500884D8D /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
+		C1CFB9031F44186500884D8D /* NSDate+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
+		C1CFB9041F44186500884D8D /* NSDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		C1CFB9051F44186500884D8D /* NSDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		C1CFB9081F44188600884D8D /* Date_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date_Tool.h; sourceTree = "<group>"; };
+		C1CFB9091F44188600884D8D /* Date_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date_Tool.m; sourceTree = "<group>"; };
+		C1CFB90B1F441AFC00884D8D /* Drvice_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drvice_tool.h; sourceTree = "<group>"; };
+		C1CFB90C1F441AFC00884D8D /* Drvice_tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drvice_tool.m; sourceTree = "<group>"; };
+		C1CFB90E1F441B6200884D8D /* NIKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIKeyChain.h; sourceTree = "<group>"; };
+		C1CFB90F1F441B6200884D8D /* NIKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIKeyChain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A8FD821F3C56D1004EACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FD9E1F3C56D1004EACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FDA91F3C56D1004EACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1A8FD7C1F3C56D1004EACA5 = {
+			isa = PBXGroup;
+			children = (
+				C1A8FD871F3C56D1004EACA5 /* wonde_tools */,
+				C1A8FDA41F3C56D1004EACA5 /* wonde_toolsTests */,
+				C1A8FDAF1F3C56D1004EACA5 /* wonde_toolsUITests */,
+				C1A8FD861F3C56D1004EACA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A8FD861F3C56D1004EACA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8FD851F3C56D1004EACA5 /* wonde_tools.app */,
+				C1A8FDA11F3C56D1004EACA5 /* wonde_toolsTests.xctest */,
+				C1A8FDAC1F3C56D1004EACA5 /* wonde_toolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A8FD871F3C56D1004EACA5 /* wonde_tools */ = {
+			isa = PBXGroup;
+			children = (
+				C1127F1E1F5014FB0079866A /* PopView.h */,
+				C1127F1F1F5014FB0079866A /* PopView.m */,
+				C1127F201F5014FB0079866A /* PopView.xib */,
+				C1CFB90E1F441B6200884D8D /* NIKeyChain.h */,
+				C1CFB90F1F441B6200884D8D /* NIKeyChain.m */,
+				C1CFB90B1F441AFC00884D8D /* Drvice_tool.h */,
+				C1CFB90C1F441AFC00884D8D /* Drvice_tool.m */,
+				C1CFB9081F44188600884D8D /* Date_Tool.h */,
+				C1CFB9091F44188600884D8D /* Date_Tool.m */,
+				C1CFB9021F44186500884D8D /* NSDate+Common.h */,
+				C1CFB9031F44186500884D8D /* NSDate+Common.m */,
+				C1CFB9041F44186500884D8D /* NSDictionary+MutableDeepCopy.h */,
+				C1CFB9051F44186500884D8D /* NSDictionary+MutableDeepCopy.m */,
+				C1A8FD8B1F3C56D1004EACA5 /* AppDelegate.h */,
+				C1A8FD8C1F3C56D1004EACA5 /* AppDelegate.m */,
+				C1A8FD8E1F3C56D1004EACA5 /* ViewController.h */,
+				C1A8FD8F1F3C56D1004EACA5 /* ViewController.m */,
+				C1A8FD911F3C56D1004EACA5 /* Main.storyboard */,
+				C1A8FD971F3C56D1004EACA5 /* Assets.xcassets */,
+				C1A8FD991F3C56D1004EACA5 /* LaunchScreen.storyboard */,
+				C1A8FD9C1F3C56D1004EACA5 /* Info.plist */,
+				C1A8FD941F3C56D1004EACA5 /* wonde_tools.xcdatamodeld */,
+				C1A8FD881F3C56D1004EACA5 /* Supporting Files */,
+				C1A8FDBE1F3C56F9004EACA5 /* Image_Tool.h */,
+				C1A8FDBF1F3C56F9004EACA5 /* Image_Tool.m */,
+				C1A8FDC11F3C5715004EACA5 /* String_Tool.h */,
+				C1A8FDC21F3C5715004EACA5 /* String_Tool.m */,
+				C1A8FDC41F3C5799004EACA5 /* Array_Tool.h */,
+				C1A8FDC51F3C5799004EACA5 /* Array_Tool.m */,
+				C1A8FDC71F3C57B6004EACA5 /* Dictionary_Tool.h */,
+				C1A8FDC81F3C57B6004EACA5 /* Dictionary_Tool.m */,
+				C1A8FDCA1F3C59D6004EACA5 /* CGSize_Tool.h */,
+				C1A8FDCB1F3C59D6004EACA5 /* CGSize_Tool.m */,
+				C1A8FDCD1F3C5B26004EACA5 /* ShapeLayer_Tool.h */,
+				C1A8FDCE1F3C5B26004EACA5 /* ShapeLayer_Tool.m */,
+				C1A8B08E1F3D8432001067B7 /* UIColor+UIColor_Tool.h */,
+				C1A8B08F1F3D8432001067B7 /* UIColor+UIColor_Tool.m */,
+				C1127ECD1F4FF6120079866A /* Macro_Tool.h */,
+				C1127ECE1F4FF6120079866A /* Macro_Tool.m */,
+				C1127ED51F5001210079866A /* wonder_LibraryHeader.h */,
+			);
+			path = wonde_tools;
+			sourceTree = "<group>";
+		};
+		C1A8FD881F3C56D1004EACA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8FD891F3C56D1004EACA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1A8FDA41F3C56D1004EACA5 /* wonde_toolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8FDA51F3C56D1004EACA5 /* wonde_toolsTests.m */,
+				C1A8FDA71F3C56D1004EACA5 /* Info.plist */,
+			);
+			path = wonde_toolsTests;
+			sourceTree = "<group>";
+		};
+		C1A8FDAF1F3C56D1004EACA5 /* wonde_toolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8FDB01F3C56D1004EACA5 /* wonde_toolsUITests.m */,
+				C1A8FDB21F3C56D1004EACA5 /* Info.plist */,
+			);
+			path = wonde_toolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C1127EE61F5001C50079866A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1127EE71F5001D00079866A /* wonder_LibraryHeader.h in Headers */,
+				C1127F211F5014FB0079866A /* PopView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C1A8FD841F3C56D1004EACA5 /* wonde_tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A8FDB51F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_tools" */;
+			buildPhases = (
+				C1A8FD811F3C56D1004EACA5 /* Sources */,
+				C1A8FD821F3C56D1004EACA5 /* Frameworks */,
+				C1A8FD831F3C56D1004EACA5 /* Resources */,
+				C1127ED81F5001610079866A /* CopyFiles */,
+				C1127EE61F5001C50079866A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wonde_tools;
+			productName = wonde_tools;
+			productReference = C1A8FD851F3C56D1004EACA5 /* wonde_tools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1A8FDA01F3C56D1004EACA5 /* wonde_toolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A8FDB81F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_toolsTests" */;
+			buildPhases = (
+				C1A8FD9D1F3C56D1004EACA5 /* Sources */,
+				C1A8FD9E1F3C56D1004EACA5 /* Frameworks */,
+				C1A8FD9F1F3C56D1004EACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A8FDA31F3C56D1004EACA5 /* PBXTargetDependency */,
+			);
+			name = wonde_toolsTests;
+			productName = wonde_toolsTests;
+			productReference = C1A8FDA11F3C56D1004EACA5 /* wonde_toolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1A8FDAB1F3C56D1004EACA5 /* wonde_toolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A8FDBB1F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_toolsUITests" */;
+			buildPhases = (
+				C1A8FDA81F3C56D1004EACA5 /* Sources */,
+				C1A8FDA91F3C56D1004EACA5 /* Frameworks */,
+				C1A8FDAA1F3C56D1004EACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A8FDAE1F3C56D1004EACA5 /* PBXTargetDependency */,
+			);
+			name = wonde_toolsUITests;
+			productName = wonde_toolsUITests;
+			productReference = C1A8FDAC1F3C56D1004EACA5 /* wonde_toolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A8FD7D1F3C56D1004EACA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wisdom_tool;
+				TargetAttributes = {
+					C1A8FD841F3C56D1004EACA5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXN7Z2PAL3;
+						ProvisioningStyle = Automatic;
+					};
+					C1A8FDA01F3C56D1004EACA5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXN7Z2PAL3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1A8FD841F3C56D1004EACA5;
+					};
+					C1A8FDAB1F3C56D1004EACA5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXN7Z2PAL3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C1A8FD841F3C56D1004EACA5;
+					};
+				};
+			};
+			buildConfigurationList = C1A8FD801F3C56D1004EACA5 /* Build configuration list for PBXProject "wonde_tools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A8FD7C1F3C56D1004EACA5;
+			productRefGroup = C1A8FD861F3C56D1004EACA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A8FD841F3C56D1004EACA5 /* wonde_tools */,
+				C1A8FDA01F3C56D1004EACA5 /* wonde_toolsTests */,
+				C1A8FDAB1F3C56D1004EACA5 /* wonde_toolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A8FD831F3C56D1004EACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A8FD9B1F3C56D1004EACA5 /* LaunchScreen.storyboard in Resources */,
+				C1A8FD981F3C56D1004EACA5 /* Assets.xcassets in Resources */,
+				C1127F231F5014FB0079866A /* PopView.xib in Resources */,
+				C1A8FD931F3C56D1004EACA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FD9F1F3C56D1004EACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FDAA1F3C56D1004EACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A8FD811F3C56D1004EACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CFB90D1F441AFC00884D8D /* Drvice_tool.m in Sources */,
+				C1CFB9071F44186500884D8D /* NSDictionary+MutableDeepCopy.m in Sources */,
+				C1A8FDC01F3C56F9004EACA5 /* Image_Tool.m in Sources */,
+				C1A8FD901F3C56D1004EACA5 /* ViewController.m in Sources */,
+				C1127ECF1F4FF6120079866A /* Macro_Tool.m in Sources */,
+				C1A8FD961F3C56D1004EACA5 /* wonde_tools.xcdatamodeld in Sources */,
+				C1A8FDC61F3C5799004EACA5 /* Array_Tool.m in Sources */,
+				C1A8FD8D1F3C56D1004EACA5 /* AppDelegate.m in Sources */,
+				C1CFB9061F44186500884D8D /* NSDate+Common.m in Sources */,
+				C1A8FDC31F3C5715004EACA5 /* String_Tool.m in Sources */,
+				C1A8FDCC1F3C59D6004EACA5 /* CGSize_Tool.m in Sources */,
+				C1CFB9101F441B6200884D8D /* NIKeyChain.m in Sources */,
+				C1127F221F5014FB0079866A /* PopView.m in Sources */,
+				C1A8B0901F3D8432001067B7 /* UIColor+UIColor_Tool.m in Sources */,
+				C1CFB90A1F44188600884D8D /* Date_Tool.m in Sources */,
+				C1A8FDCF1F3C5B26004EACA5 /* ShapeLayer_Tool.m in Sources */,
+				C1A8FD8A1F3C56D1004EACA5 /* main.m in Sources */,
+				C1A8FDC91F3C57B6004EACA5 /* Dictionary_Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FD9D1F3C56D1004EACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A8FDA61F3C56D1004EACA5 /* wonde_toolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8FDA81F3C56D1004EACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A8FDB11F3C56D1004EACA5 /* wonde_toolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1A8FDA31F3C56D1004EACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1A8FD841F3C56D1004EACA5 /* wonde_tools */;
+			targetProxy = C1A8FDA21F3C56D1004EACA5 /* PBXContainerItemProxy */;
+		};
+		C1A8FDAE1F3C56D1004EACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1A8FD841F3C56D1004EACA5 /* wonde_tools */;
+			targetProxy = C1A8FDAD1F3C56D1004EACA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1A8FD911F3C56D1004EACA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A8FD921F3C56D1004EACA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1A8FD991F3C56D1004EACA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A8FD9A1F3C56D1004EACA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1A8FDB31F3C56D1004EACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "/Users/wonder邵瑞/邵瑞/learning/wonde_tools/wonde_tools/wonder_LibraryHeader.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1A8FDB41F3C56D1004EACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "/Users/wonder邵瑞/邵瑞/learning/wonde_tools/wonde_tools/wonder_LibraryHeader.h";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A8FDB61F3C56D1004EACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = wonde_tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1A8FDB71F3C56D1004EACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = wonde_tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-tools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1A8FDB91F3C56D1004EACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				INFOPLIST_FILE = wonde_toolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-toolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wonde_tools.app/wonde_tools";
+			};
+			name = Debug;
+		};
+		C1A8FDBA1F3C56D1004EACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				INFOPLIST_FILE = wonde_toolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-toolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wonde_tools.app/wonde_tools";
+			};
+			name = Release;
+		};
+		C1A8FDBC1F3C56D1004EACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				INFOPLIST_FILE = wonde_toolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-toolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wonde_tools;
+			};
+			name = Debug;
+		};
+		C1A8FDBD1F3C56D1004EACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXN7Z2PAL3;
+				INFOPLIST_FILE = wonde_toolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.app.wisdom-gy.wonde-toolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wonde_tools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A8FD801F3C56D1004EACA5 /* Build configuration list for PBXProject "wonde_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A8FDB31F3C56D1004EACA5 /* Debug */,
+				C1A8FDB41F3C56D1004EACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A8FDB51F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A8FDB61F3C56D1004EACA5 /* Debug */,
+				C1A8FDB71F3C56D1004EACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A8FDB81F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_toolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A8FDB91F3C56D1004EACA5 /* Debug */,
+				C1A8FDBA1F3C56D1004EACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A8FDBB1F3C56D1004EACA5 /* Build configuration list for PBXNativeTarget "wonde_toolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A8FDBC1F3C56D1004EACA5 /* Debug */,
+				C1A8FDBD1F3C56D1004EACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1A8FD941F3C56D1004EACA5 /* wonde_tools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1A8FD951F3C56D1004EACA5 /* wonde_tools.xcdatamodel */,
+			);
+			currentVersion = C1A8FD951F3C56D1004EACA5 /* wonde_tools.xcdatamodel */;
+			path = wonde_tools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1A8FD7D1F3C56D1004EACA5 /* Project object */;
+}
